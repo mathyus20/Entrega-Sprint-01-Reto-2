@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap');
+
+*{
+    margin:0; padding:0;
+    color:#ffffff;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: 450;
+}
+h1{
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    overflow: hidden;
+   
+}
+
+nav{
+    height: 6rem;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    background-color: #00000067;
+    box-shadow: 0 3px 20px rgba(84, 77, 77, 0.059);
+}
+
+/* Styling Logo*/
+
+/* .logo{
+    padding: 3vh 3vw;
+    text-align: left;
+    width: 20vw;
+}
+
+.logo img{
+    height: auto;
+    width: 4rem;
+} */
+
+/* Styling Navigation Links*/
+
+.nav-links{
+    width: 80vw;
+    display: flex;
+    padding: 0 0.7vw;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    list-style: none;
+    font-weight: 500;
+}
+
+.nav-links li a{
+    margin: 0 0.7vw;
+    text-decoration: none;
+    transition: all ease-in-out 350ms;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.nav-links li a:hover{
+    color:rgb(187, 41, 63);
+    background-color: rgba(0, 0, 0, 0.553);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.nav-links li{
+    position:relative;
+}
+
+.nav-links li a:hover::before{
+    width: 80%;
+}
+
+
+/*Buttons Styling*/
+
+.login-button{
+    padding: 0.6rem 0.8rem;
+    margin-left: 2vw;
+    font-size:1rem;
+    cursor:pointer;
+    background-color: transparent;
+    border:1.5px solid #ffffff;
+    border-radius: 2em;
+    margin-left: 200px;
+}
+
+.login-button:hover{
+    color:rgb(255, 255, 255);
+    background-color: #121df391;
+    border:1.5px solid #431461;
+    transition: all ease-in-out 350ms;
+}
+
+
+
+.pagina #imagen{
+    background-size:     cover;                     
+    background-repeat:   repeat;
+    background-position: center center;
+}
+    
+
+.pagina #imagen .img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.cuerpo{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    right: 200px;
+    bottom: 2500px;
+    text-align: center;
+
+}
+
+.opciones {
+    
+    display: inline-flex;
+    float: left;
+    margin-left:50px;
+    margin-top:100px;
+}
+
+.opciones img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.footer{
+
+    text-align: center;
+background-color: #00000072;
+  border-color: #ffffff;
+  border: 2px solid;
+}
+
+.titulo{
+    
+    background-color: #00000072;
+  border-color: #ffffff;
+  border: 2px solid;
+
+}
+
+.boton{
+	border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 16px;
+  background-color: #00000072;
+  border-color: #ffffff;
+  border: 2px solid;
+}
+
+.boton :hover{
+    color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+}
